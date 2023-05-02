@@ -390,7 +390,7 @@ plot(mean(FZ_1120_dFz.FZ),Kxk_fz_var_vec4(1),'+', 'MarkerSize', 15, 'LineWidth',
 hold off
 legend({'Kxk($Fz_{220}$)','Kxk($Fz_{700}$)','Kxk($Fz_{900}$)','Kxk($Fz_{1120}$)'}, 'Location','eastoutside');
 xlabel('$Fz$ [N]')
-ylabel('$K_{kx}(Fz)$ [-]')
+ylabel('$K_{xk}(Fz)$ [-]')
 
 saveas(gcf, 'Plots/Kxk_cornering_stiffness_as_function_of_Fz.eps', 'epsc')
 
@@ -409,7 +409,7 @@ plot(SL_vec,Calfa_vec4_x,'-','LineWidth',2, 'Color', '#77AC30')
 hold off
 legend({'Kxk($Fz_{220}$)','Kxk($Fz_{700}$)','Kxk($Fz_{900}$)','Kxk($Fz_{1120}$)'}, 'Location','eastoutside');
 xlabel('$\kappa$ [-]')
-ylabel('$K_{kx}(Fz)$ [-]')
+ylabel('$K_{xk}(Fz)$ [-]')
 
 saveas(gcf, 'Plots/Kxk_cornering_stiffness_as_function_of_kappa.eps', 'epsc')
 
